@@ -10,8 +10,8 @@ from hybrirag.engine import HybriRAGEngine
 
 def main() -> None:
     engine = HybriRAGEngine(
-        embedding_model=r"E:\Models\Embedding\BAAI-bge-small-en-v1.5",
-        rerank_model=r"E:\Models\Reranker\BAAI-bge-reranker-base"
+        embedding_model="BAAI-bge-small-en-v1.5",
+        rerank_model="BAAI-bge-reranker-base"
     )
 
     documents = [
